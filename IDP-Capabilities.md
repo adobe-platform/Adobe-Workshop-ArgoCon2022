@@ -26,7 +26,6 @@ Guide developers as they design their project with architecture and tooling. Thi
 * Production readiness guidance
 * Reference apps, snippets, libraries and images
 
-
 ### Documentation Training & Certification
 
 Help developers understand how to leverage the platform to the maximun, in a self-service manner. 
@@ -41,17 +40,15 @@ Facilitate a community around the platofm, where individuals from different serv
 
 One-stop-shop for everything the developers need to onboard, configure and observe their services. This includes, in high level terms:
 
-* Ability to visualize the desire state of the system and service
+* Ability to visualize the desired state of the system and service
 * Ability to view the actual state of the system and service
-* Helm in editing the desired state in its source-of-truth location (eg GitHub) 
-
+* Help in editing the desired state in its source-of-truth location (eg GitHub) 
 
 ### Automated Support & Search
 
 Provide developers with a self-serve way to find information about the platform and its features, get responses to questions and automated help for problems. This includes:
 
 * Tools to search all available docs, guides, examples etc, in an intuitive and easy way
-
 
 ### Version Control & IDE Tools
 
@@ -62,7 +59,6 @@ Make development, including local development and testing, easy and efficient. T
 * Local dev and testing environments 
 * Ephemeral cloud dev and testing environments 
 
-
 ### Service Generation
 
 Automated and templatized way to bootstrap and configure a service/application from scratch, which:
@@ -70,7 +66,6 @@ Automated and templatized way to bootstrap and configure a service/application f
 * Are tested and hardened
 * Include best practices 
 * Include security and compliance built-in
-
 
 ### Service Management & Discovery
 
@@ -85,6 +80,7 @@ A service directory that can be searched, including:
 
 Integration and Deploy capabilities cover deployment, integration of distributed systems, configuration of resources etc.
 
+
 ### Environment Management
 
 Ability to easily create, configure and manage service/app environments. Includes:
@@ -94,7 +90,6 @@ Ability to easily create, configure and manage service/app environments. Include
 * Creating and removing Ephemeral environments for development, testing or experimentation
 * Easily manage environment-specific configurations and resources
 
-
 ### Configuration Management
 
 Developers should manage application configuration in a scalable and reliable way, similarly to how we manage and version source code. This includes:
@@ -103,7 +98,6 @@ Developers should manage application configuration in a scalable and reliable wa
 * Manage cluster resources
 * Manage other (non-cluster) cloud resources
 
-
 ### Infrastructure Provisioning & Orchestration
 
 Ability to provision and configure cloud resources and other infrastructure for the service/app leveraging GitOps. This includes:
@@ -111,7 +105,6 @@ Ability to provision and configure cloud resources and other infrastructure for 
 * Defining all required resources as code (including clusters), as part of the service/app configuration definitions
 * Ability to automatically associate resources credentials and configuration that is needed by the service/app, on a per-environment basis
 * Just-in-time provisioning of all required resources as part of the application/app provisioning
-
 
 ### Delivery/Deployment Management
 
@@ -126,14 +119,12 @@ Ability to easily manage the CI/CD for the service/app, including:
 * Debugging tools
 * Ability to repeat past deployments reliably
 
-
 ### API Management
 
 Ability to easily onboard and manage the API configuration of the service as code, in a self-service manner, including:
 
 * API Authentication and Authorization validations
 * API routing and traffic managemenr (like throttling, routing configs etc)
-
 
 ### Secrets Management
 
@@ -169,11 +160,6 @@ Operate and Improve capabilities include management of the service/app at runtim
 
 Include management and enforement of business and operational policies on running apps/services.
 
-
-### Cluster Releases & Management
-
-Ability to manage the cluster fleet as code, with best practices and continuous deployment.
-
 ### Roles & Permissions
 
 Management of RBAC, Authentication and Authorization of users and tools to the cloud resources and systems.
@@ -184,8 +170,9 @@ Management and enforcement of security policies and automatic validations and ch
 
 ### K8s Clusters & Components
 
-Management of the Kubernetes cluster fleet and components, including:
+Management of the Kubernetes cluster fleet and components as code, with best practices and continuous deployment, including:
 
+* Cluster releases
 * RBAC
 * Efficiency tooling
 
@@ -197,14 +184,13 @@ Management and enforcement of cloud policies and governance.
 
 Management of traffic and connectovity within and between the cluster fleet, corp network, and public internet. 
 
-
 ### Cloud Providers and Private Cloud
 
 * Management of cloud provider accounts and resources.
 
 ### Diagnostics & Insights
 
-Tools and dashboards to allow for diagnostics debugging of the running system to reduce MTTR (mean time to resolution)
+Tools and dashboards to allow for diagnostics and debugging of the running system to reduce MTTR (mean time to resolution)
 
 ### Observability
 
@@ -214,17 +200,15 @@ Ability to observe the running systems and understand their state and status.
 
 Ability to define as code dashboards and alerts to help with discovery and resolution of runtime issues.
 
-### Reliability Engineering
-
 ### Incident Management
 
-Ability to efficiently alert and notify engineers when business-impacting incidents/outages occure, as well as the tools for managing those incidents.
+Ability to efficiently alert and notify engineers when business-impacting incidents/outages occure, as well as providing tools for managing those incidents.
 
 ### Efficiency
 
-Tooling for automatically improving the efficiency of the cloud resources, to minimize cost while not compromizing reliability.
+Tooling for automatically improving the efficiency of cloud resources usage, to minimize cost without compromizing reliability.
 
-### Quality Assurance & Testing Infra
+### Reliability, Quality Assurance & Testing Infra
 
 Toos and frameworks for helping engineers validate the quality of the services/apps. Includes:
 
