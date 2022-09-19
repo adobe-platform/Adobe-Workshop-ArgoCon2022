@@ -6,11 +6,21 @@ accordance with the terms of the Adobe license agreement accompanying
 it.
 
 
-# IDP Capabilities
+# IDP Overview
 
 ![IDP Capabilities](./images/IDP-Capabilities.png?raw=true)
 
 Adobe Internal Developer Platform (IDP) aims to make the lives of internal developers easier by providing a seamless experience for the entire development lifecycle, from concept → code → cloud → customers, with production readiness built in.
+
+This diagram outlines the common capabilities that an IDP has, which are used by developers during the service/app development lifecycle.  
+
+In [a 2022 Gartner report](https://www.gartner.com/en/documents/4010078), these IDP capabilities are categorized into the following three development lifecycle phases:
+
+* Discover and Create
+* Integrate and Deploy
+* Operate and Improve
+
+We'll now expand a bit on each of these phases and capabilities.
 
 ## Discover and Create
 
@@ -158,55 +168,98 @@ Operate and Improve capabilities include management of the service/app at runtim
 
 ### Policy Management
 
-Include management and enforement of business and operational policies on running apps/services.
+Management and enforcement of business, operational, and other policies on running apps/services and resources. This includes:
+
+* Restricting resource configurations to allowed values
+* Enforecement of specific annotations/labels
+* Enforcement of specific configurations on production environments
 
 ### Roles & Permissions
 
-Management of RBAC, Authentication and Authorization of users and tools to the cloud resources and systems.
+Management of RBAC, authentication and authorization of users and tools to the cloud resources and systems. Examples include:
+
+* Managing K8s clusters access level based on roles, for example different access for service operators and cluster operators
+* Defining RBAC permissions to perform deployments, updates to the configuration of the service/app and resources
 
 ### Security
 
-Management and enforcement of security policies and automatic validations and checks.
+Definition and enforcement of security policies and automatic validations and checks. This includes:
+
+* Security reviews and approvals
+* Scanning and checks for vulnerabilities 
+
 
 ### K8s Clusters & Components
 
 Management of the Kubernetes cluster fleet and components as code, with best practices and continuous deployment, including:
 
-* Cluster releases
-* RBAC
-* Efficiency tooling
+* Framework for cluster components
+* Clusters release management
+
 
 ### Cloud Compliance, Governance
 
-Management and enforcement of cloud policies and governance.
+Management and enforcement of business policies and governance. This includes:
+
+* Framework for implementing measures for compliance with business policies 
+* Framework for adhering to governance rules and regulations
 
 ### Network engineering
 
-Management of traffic and connectovity within and between the cluster fleet, corp network, and public internet. 
+Management of traffic and network connectivity. This includes:
+
+* Network policies (ingress and egress) within and between the cluster fleet, cloud resources, corp network, and public internet
+* Management of network performance and latency
+* Network throughput and reliability
 
 ### Cloud Providers and Private Cloud
 
-* Management of cloud provider accounts and resources.
+Management of cloud provider and Data Center accounts and resources. This includes:
 
-### Diagnostics & Insights
-
-Tools and dashboards to allow for diagnostics and debugging of the running system to reduce MTTR (mean time to resolution)
+* Tooling (including CLI/UX) for accounts management
+* Management of policies for resources inside the cloud provider accounts and in the data centers
 
 ### Observability
 
-Ability to observe the running systems and understand their state and status.
+Ability to generate all the needed data in order observe the expected, unexpected and unanticipated status of the running systems. This includes:
+
+* Logging and events
+* Tracing
+* Metrics
 
 ### Monitoring
 
-Ability to define as code dashboards and alerts to help with discovery and resolution of runtime issues.
+Ability to use metrics to define dashboards and alerts as code to help with discovery and resolution of expected runtime issues. This includes:
+
+* Dashboards
+* Alerts
+
+### Diagnostics & Insights
+
+Tools and dashboards that use observability and monitoring data to diagnose issues and debug running systems in order to reduce MTTR (mean time to resolution). This includes:
+
+* Automated detection of issues
+* Automated root cause analysis
+* Tools to help developers diagnose and analyse issues
+* Automated remediation for self recovery of systems
+
 
 ### Incident Management
 
-Ability to efficiently alert and notify engineers when business-impacting incidents/outages occure, as well as providing tools for managing those incidents.
+Ability to efficiently alert and notify engineers when business-impacting incidents/outages occure, as well as providing tools for managing those incidents. This includes:
+
+* Incident management dashboards
+* Incident management virtual situation rooms
+* Tooling for alerting and creating situation rooms
 
 ### Efficiency
 
-Tooling for automatically improving the efficiency of cloud resources usage, to minimize cost without compromizing reliability.
+Tooling for automatically improving the efficiency of cloud resources usage, to minimize cost without compromizing reliability, and manage charge-back for multi-tenant clusters. This includes:
+
+* Dashboards for efficiency and cost reporting
+* Tools for cost chargeback 
+* Tools for auto adjust resource requests according to the actual usage
+* Tools to auto recommend configs for services for better efficiency 
 
 ### Reliability, Quality Assurance & Testing Infra
 
