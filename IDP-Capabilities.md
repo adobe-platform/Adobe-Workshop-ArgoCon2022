@@ -24,7 +24,7 @@ We'll now expand a bit on each of these phases and capabilities.
 
 ## Discover and Create
 
-Discover and Create capabilities cover the initial part of the development lifecycle, including onboaring, training, bootstraping, local development etc. 
+Discover and Create capabilities cover the initial part of the development lifecycle, including onboarding, training, bootstraping, local development etc. 
 
 
 ### Architecture Guidance & Tools
