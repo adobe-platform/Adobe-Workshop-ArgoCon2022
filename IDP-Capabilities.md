@@ -24,7 +24,7 @@ We'll now expand a bit on each of these phases and capabilities.
 
 ## Discover and Create
 
-Discover and Create capabilities cover the initial part of the development lifecycle, including onboarding, training, bootstraping, local development etc. 
+Discover and Create capabilities cover the initial part of the development lifecycle, including onboarding, training, bootstrapping, local development etc. 
 
 
 ### Architecture Guidance & Tools
@@ -38,7 +38,7 @@ Guide developers as they design their project with architecture and tooling. Thi
 
 ### Documentation Training & Certification
 
-Help developers understand how to leverage the platform to the maximun, in a self-service manner. 
+Help developers understand how to leverage the platform to the maximum, in a self-service manner. 
 
 Facilitate a community around the platform, where individuals from different service teams become SMEs on the platform and can help their team achieve their goals without having to wait for the platform team for information or help. This includes:
 
@@ -48,17 +48,17 @@ Facilitate a community around the platform, where individuals from different ser
 
 ### Developer Portal & Dashboards
 
-One-stop-shop for everything the developers need to onboard, configure and observe their services. This includes, in high level terms:
+One-stop-shop for everything the developers need to onboard, configure and observe their services. This includes, in high-level terms:
 
 * Ability to visualize the desired state of the system and service
 * Ability to view the actual state of the system and service
-* Help in editing the desired state in its source-of-truth location (eg GitHub) 
+* Help in editing the desired state in its source-of-truth location (e.g. GitHub) 
 
 ### Automated Support & Search
 
-Provide developers with a self-serve way to find information about the platform and its features, get responses to questions and automated help for problems. This includes:
+Provide developers with a self-serve way to find information about the platform and its features, get responses to questions, and automated help for problems. This includes:
 
-* Tools to search all available docs, guides, examples etc, in an intuitive and easy way
+* Tools to search all available docs, guides, examples etc., in an intuitive and easy way
 
 ### Version Control & IDE Tools
 
@@ -88,7 +88,7 @@ A service directory that can be searched, including:
 
 ## Integrate and Deploy
 
-Integration and Deploy capabilities cover deployment, integration of distributed systems, configuration of resources etc.
+Integration and deploy capabilities cover deployment, integration of distributed systems, configuration of resources etc.
 
 
 ### Environment Management
@@ -134,13 +134,13 @@ Ability to easily manage the CI/CD for the service/app, including:
 Ability to easily onboard and manage the API configuration of the service as code, in a self-service manner, including:
 
 * API Authentication and Authorization validations
-* API routing and traffic managemenr (like throttling, routing configs etc)
+* API routing and traffic management (like throttling, routing configs etc.)
 
 ### Secrets Management
 
 Ability to easily onboard and manage secrets required by the service/app and supporting resources, including:
 
-* Abitlity to associate environment-specific instances of the service/app with credentials and other secrets of resources for that environment
+* Ability to associate environment-specific instances of the service/app with credentials and other secrets of resources for that environment
 * Automatic integration of the secrets management system with the deployment/delivery system
 
 ### Workflow Orchestration
@@ -178,7 +178,7 @@ Management and enforcement of business, operational, and other policies on runni
 
 Management of RBAC, authentication and authorization of users and tools to the cloud resources and systems. Examples include:
 
-* Managing K8s clusters access level based on roles, for example different access for service operators and cluster operators
+* Managing K8s clusters access level based on roles, for example, different access for service operators and cluster operators
 * Defining RBAC permissions to perform deployments, updates to the configuration of the service/app and resources
 
 ### Security
@@ -208,7 +208,7 @@ Management and enforcement of business policies and governance. This includes:
 
 Management of traffic and network connectivity. This includes:
 
-* Network policies (ingress and egress) within and between the cluster fleet, cloud resources, corp network, and public internet
+* Network policies (ingress and egress) within and between the cluster fleet, cloud resources, corporate network, and public internet
 * Management of network performance and latency
 * Network throughput and reliability
 
@@ -221,7 +221,7 @@ Management of cloud provider and Data Center accounts and resources. This includ
 
 ### Observability
 
-Ability to generate all the needed data in order observe the expected, unexpected and unanticipated status of the running systems. This includes:
+Ability to generate all the needed data in order to observe the expected, unexpected and unanticipated status of the running systems. This includes:
 
 * Logging and events
 * Tracing
@@ -240,13 +240,13 @@ Tools and dashboards that use observability and monitoring data to diagnose issu
 
 * Automated detection of issues
 * Automated root cause analysis
-* Tools to help developers diagnose and analyse issues
-* Automated remediation for self recovery of systems
+* Tools to help developers diagnose and analyze issues
+* Automated remediation for self-recovery of systems
 
 
 ### Incident Management
 
-Ability to efficiently alert and notify engineers when business-impacting incidents/outages occur, as well as providing tools for managing those incidents. This includes:
+Ability to efficiently alert and notify engineers when business-impacting incidents/outages occur, as well as provide tools for managing those incidents. This includes:
 
 * Incident management dashboards
 * Incident management virtual situation rooms
@@ -254,7 +254,7 @@ Ability to efficiently alert and notify engineers when business-impacting incide
 
 ### Efficiency
 
-Tooling for automatically improving the efficiency of cloud resources usage, to minimize cost without compromizing reliability, and manage charge-back for multi-tenant clusters. This includes:
+Tooling for automatically improving the efficiency of cloud resources usage, minimizing cost without compromising reliability, and managing charge-back for multi-tenant clusters. This includes:
 
 * Dashboards for efficiency and cost reporting
 * Tools for cost chargeback 
@@ -263,7 +263,7 @@ Tooling for automatically improving the efficiency of cloud resources usage, to 
 
 ### Reliability, Quality Assurance & Testing Infra
 
-Toos and frameworks for helping engineers validate the quality of the services/apps. Includes:
+Tools and frameworks for helping engineers validate the quality of the services/apps. Includes:
 
 * Functional testing
 * Chaos testing
