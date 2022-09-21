@@ -171,7 +171,7 @@ Operate and Improve capabilities include management of the service/app at runtim
 Management and enforcement of business, operational, and other policies on running apps/services and resources. This includes:
 
 * Restricting resource configurations to allowed values
-* Enforecement of specific annotations/labels
+* Enforcement of specific annotations/labels
 * Enforcement of specific configurations on production environments
 
 ### Roles & Permissions
