@@ -40,7 +40,7 @@ Guide developers as they design their project with architecture and tooling. Thi
 
 Help developers understand how to leverage the platform to the maximun, in a self-service manner. 
 
-Facilitate a community around the platofm, where individuals from different service teams become SMEs on the platform and can help their team achieve their goals without having to wait for the platform team for information or help. This includes:
+Facilitate a community around the platform, where individuals from different service teams become SMEs on the platform and can help their team achieve their goals without having to wait for the platform team for information or help. This includes:
 
 * Platform usage guides
 * Training docs and videos
