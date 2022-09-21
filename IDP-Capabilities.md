@@ -254,11 +254,11 @@ Ability to efficiently alert and notify engineers when business-impacting incide
 
 ### Efficiency
 
-Tooling for automatically improving the efficiency of cloud resources usage, to minimize cost without compromizing reliability, and manage charge-back for multi-tenant clusters. This includes:
+Tooling for automatically improving the efficiency of cloud resources usage, to minimize cost without compromising reliability, and manage charge-back for multi-tenant clusters. This includes:
 
 * Dashboards for efficiency and cost reporting
 * Tools for cost chargeback 
-* Tools for auto adjust resource requests according to the actual usage
+* Tools to auto adjust resource requests according to the actual usage
 * Tools to auto recommend configs for services for better efficiency 
 
 ### Reliability, Quality Assurance & Testing Infra
