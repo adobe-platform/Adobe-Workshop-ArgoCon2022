@@ -246,7 +246,7 @@ Tools and dashboards that use observability and monitoring data to diagnose issu
 
 ### Incident Management
 
-Ability to efficiently alert and notify engineers when business-impacting incidents/outages occure, as well as providing tools for managing those incidents. This includes:
+Ability to efficiently alert and notify engineers when business-impacting incidents/outages occur, as well as providing tools for managing those incidents. This includes:
 
 * Incident management dashboards
 * Incident management virtual situation rooms
