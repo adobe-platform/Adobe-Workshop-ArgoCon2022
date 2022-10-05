@@ -8,7 +8,7 @@ it.
 
 # IDP Overview
 
-![IDP Capabilities](./images/IDP-capabilities.png?raw=true)
+![IDP Capabilities](./images/IDPCapabilities.png?raw=true)
 
 Adobe Internal Developer Platform (IDP) aims to make the lives of internal developers easier by providing a seamless experience for the entire development lifecycle, from concept → code → cloud → customers, with production readiness built in.
 
